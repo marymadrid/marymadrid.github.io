@@ -1,0 +1,68 @@
+body,
+nav,
+h1,
+h4,
+h3,
+button {
+    font-family: "Raleway", Arial, sans-serif
+}
+
+h1,
+h4,
+h3,
+button {
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+img {
+    filter: grayscale(80%);
+}
+
+nav {
+    background-color: #efecea;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.zoom {
+    padding: 80 px;
+    transition: transform .2s;
+    transition: all 1s ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    margin: 7%;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+button {
+    background-color: #efecea;
+    color: #1c2b2d;
+    padding: 10px 20% 10px 20%;
+    border-style: none;
+    margin-left: 18%;
+}
+
+button:hover {
+    background-color: #efecea;
+    transition: all 1 ease;
+    border-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #1c2b2d;
+    text-decoration: underline;
+}
